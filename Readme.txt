@@ -7,7 +7,7 @@ A secure and full-featured **To-Do List Web Application** built using:
 - **Authentication:** JWT (JSON Web Token)  
 - **Password Encryption:** bcrypt  
 
----
+
 
 ##  Features
  User registration and login  
@@ -36,23 +36,31 @@ A secure and full-featured **To-Do List Web Application** built using:
 - Protected routes for CRUD operations
 - Encrypted passwords using bcrypt
 
+----------------Run Project-----------------
+
+Backend Setup
+Open terminal and navigate to the backend folder:
+cd backend
 
 
-### Run Project (Full Setup)
+Install dependencies:
 
-1. Start backend
-      cd backend
-      npm start
-2. Start frontend
-      cd myapp
-      npm start
-3. Open in browser → http://localhost:3000
-4. Register → Login → Add tasks 
-5.Create Database
-    You already have a self-contained MySQL file named todolist.sql.
-    create database named node1
-    Run it in your MySQL terminal or GUI:
-    mysql -u root -p < todolist.sql
+npm install
+Run the backend server:
+npm start
+The backend will run on the default port (e.g., http://localhost:5050).
+
+
+Frontend Setup
+Open terminal and navigate to the frontend folder:
+cd myapp
+Install dependencies:
+npm install
+Run the frontend:
+npm start
+
+
+The frontend will open in your browser (default: http://localhost:3000).
 
 
 
@@ -60,4 +68,5 @@ Author
 Vaishnavi Warad
 Full Stack Developer | React.js | Node.js | MySQL
 Email: vaishnaviwarad21@gmail.com
+
 
